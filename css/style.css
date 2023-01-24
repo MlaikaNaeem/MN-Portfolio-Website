@@ -20,7 +20,8 @@ body {
   text-align: center;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
   font-size: 40px;
   line-height: 1.5;
@@ -38,7 +39,27 @@ h2 {
   color: whitesmoke;
   background-color: #dc354656;
 }
-
 .my-photo {
-  max-width: 150px;
+  max-height: 300px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .btn-read {
+    padding: 10px 10px;
+    font-size: 11px;
+    display: block;
+    margin: 0 12px;
+    text-align: center;
+  }
 }
