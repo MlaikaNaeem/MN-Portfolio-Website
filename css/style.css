@@ -29,16 +29,16 @@ h2 {
 .btn-read {
   background: var(--btn-color);
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px 10px;
   line-height: 27px;
-  margin-left: 300px;
   font-size: 18px;
-  margin-top: 15px;
+  margin-left: 100px;
 }
 .btn-read:hover {
   color: whitesmoke;
   background-color: #dc354656;
 }
+
 .my-photo {
   max-width: 150px;
 }
