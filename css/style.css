@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans+Condensed&family=Merienda:wght@300;400;500&family=Poppins:ital,wght@0,500;1,400&family=Staatliches&family=Unbounded&display=swap");
 :root {
-  --branding-color: black;
+  --branding-color: #060608;
   --heading-font-family: "Merienda", cursive;
   --default-font-family: "Poppins", sans-serif;
   --btn-color: #dc3545;
@@ -37,13 +37,18 @@ body {
   text-align: center;
 }
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font-family);
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
+}
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  text-align: center;
   font-weight: bold;
+  text-shadow: 2px 2px #dc3545;
 }
 h4 {
   font-size: 30px;
@@ -72,6 +77,11 @@ h5 {
 }
 .weather-image {
   box-shadow: 0 15px 25px black;
+  border-radius: 5px;
+}
+.weather-image:hover {
+  cursor: pointer;
+  box-shadow: 5px 30px 40px black;
 }
 .my-photo {
   max-height: 300px;
