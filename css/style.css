@@ -75,16 +75,16 @@ h5 {
   color: whitesmoke;
   background-color: #dc354656;
 }
-.weather-image {
+.my-photo {
+  max-height: 300px;
+}
+.project-images {
   box-shadow: 0 15px 25px black;
   border-radius: 5px;
 }
-.weather-image:hover {
+.project-images:hover {
   cursor: pointer;
   box-shadow: 5px 30px 40px black;
-}
-.my-photo {
-  max-height: 300px;
 }
 .primary-link {
   padding: 0px 20px;
