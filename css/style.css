@@ -1,12 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans+Condensed&family=Merienda:wght@300;400;500&family=Poppins:ital,wght@0,500;1,400&family=Staatliches&family=Unbounded&display=swap");
 :root {
-  --branding-color: #141010;
+  --branding-color: black;
   --heading-font-family: "Merienda", cursive;
   --default-font-family: "Poppins", sans-serif;
   --btn-color: #dc3545;
 }
 body {
   font-family: var(--default-font-family);
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  color: black;
+}
+.card {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 .hero {
   background-color: var(--branding-color);
@@ -26,6 +43,7 @@ h3 {
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
+  font-weight: bold;
 }
 h4 {
   font-size: 30px;
@@ -33,6 +51,12 @@ h4 {
   text-align: center;
   font-weight: bold;
   margin: 30px 0px;
+}
+h5 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  margin: 20px 0px;
+  font-weight: bold;
 }
 .btn-read {
   background: var(--btn-color);
@@ -70,6 +94,10 @@ h4 {
   box-shadow: 0 0 5px var(--branding-color), 0 0 25px var(--branding-color),
     0 0 50px var(--branding-color), 0 0 100px var(--branding-color);
 }
+.fa-brands {
+  color: black;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
