@@ -109,6 +109,24 @@ h5 {
 .about-me-image {
   border-radius: 50%;
 }
+/*contact-page*/
+.contact-section {
+  background: var(--branding-color);
+  color: white;
+}
+.contact-icons {
+  color: white;
+  margin-top: 50px;
+}
+.contact-para{
+  font-size: 12px;
+  font-style: var(--default-font-family);
+  opacity: 0.5;
+}
+.contact-footer{
+  opacity: 0.3;
+  margin-top: 40px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
