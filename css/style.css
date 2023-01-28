@@ -7,7 +7,7 @@
 }
 body {
   font-family: var(--default-font-family);
-  background:#e7e6e1;
+  background: #e7e6e1;
 }
 .card {
   background: radial-gradient(
@@ -57,12 +57,16 @@ h5 {
   font-weight: bold;
 }
 .btn-read {
-  background: var(--btn-color);
-  text-align: center;
-  padding: 15px 10px;
-  line-height: 27px;
-  font-size: 18px;
-  margin-left: 100px;
+  padding: 0px 20px;
+  color: var(--btn-color);
+  font-size: 14px;
+  text-decoration: none;
+  background: black;
+  letter-spacing: 2px;
+  border: 1px solid #9fd3c7;
+  border-radius: 25px;
+  line-height: 60px;
+  margin-left: 35px;
 }
 .btn-read:hover {
   color: whitesmoke;
@@ -101,8 +105,8 @@ h5 {
   color: black;
 }
 
- /*about-page*/
-.about-me-image{
+/*about-page*/
+.about-me-image {
   border-radius: 50%;
 }
 @media (max-width: 576px) {
@@ -119,10 +123,7 @@ h5 {
     font-size: 20px;
   }
   .btn-read {
-    padding: 10px 10px;
-    font-size: 11px;
-    display: block;
-    margin: 0 12px;
-    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
   }
 }
