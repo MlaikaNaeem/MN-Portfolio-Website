@@ -71,9 +71,14 @@ h5 {
   margin: 20px 0px;
   font-weight: bold;
 }
+.back-card{
+  background: black;
+}
 .btn-read {
   padding: 0px 20px;
   color: var(--btn-color);
+  display: block;
+  margin: auto;
   font-size: 14px;
   text-decoration: none;
   background: black;
@@ -81,7 +86,7 @@ h5 {
   border: 1px solid #9fd3c7;
   border-radius: 25px;
   line-height: 60px;
-  margin-left: 35px;
+  
 }
 .btn-read:hover {
   color: whitesmoke;
@@ -133,6 +138,9 @@ h5 {
   color: white;
   margin-top: 50px;
 }
+.contact-icons:hover{
+  transform: scale(1.2);
+}
 .contact-para {
   font-size: 12px;
   font-style: var(--default-font-family);
@@ -152,18 +160,13 @@ h5 {
   h3 {
     font-size: 26px;
   }
-  h5{
+  h5 {
     font-size: 14px;
   }
   .hero p {
     font-size: 20px;
   }
-  .btn-read {
-    margin-left: 100px;
+  .contact-footer {
     margin-top: 10px;
   }
-.contact-footer{
-  margin-top: 10px;
-}
-
 }
