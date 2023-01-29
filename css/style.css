@@ -152,6 +152,9 @@ h5 {
   h3 {
     font-size: 26px;
   }
+  h5{
+    font-size: 14px;
+  }
   .hero p {
     font-size: 20px;
   }
@@ -159,5 +162,8 @@ h5 {
     margin-left: 100px;
     margin-top: 10px;
   }
+.contact-footer{
+  margin-top: 10px;
+}
 
 }
