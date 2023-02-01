@@ -71,7 +71,7 @@ h5 {
   margin: 20px 0px;
   font-weight: bold;
 }
-.back-card{
+.back-card {
   background: black;
 }
 .btn-read {
@@ -86,7 +86,6 @@ h5 {
   border: 1px solid #9fd3c7;
   border-radius: 25px;
   line-height: 60px;
-  
 }
 .btn-read:hover {
   color: whitesmoke;
@@ -138,8 +137,12 @@ h5 {
   color: white;
   margin-top: 50px;
 }
-.contact-icons:hover{
+.contact-icons:hover {
   transform: scale(1.2);
+  color: var(--btn-color);
+}
+.contact-platforms {
+  color: var(--btn-color);
 }
 .contact-para {
   font-size: 12px;
@@ -168,5 +171,12 @@ h5 {
   }
   .contact-footer {
     margin-top: 10px;
+  }
+  .skill-icons {
+    font-size: 40px;
+  }
+  .api-icon {
+    width: 40px;
+    height: 40px;
   }
 }
