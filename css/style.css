@@ -23,14 +23,15 @@ body {
 .navbar-toggler {
   background-color: var(--btn-color);
 }
-.name{
+.name {
   text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 40px;
 }
 .name p {
   font-family: arial;
   display: inline-block;
-  font-weight: 600;
-   font-size: 40px;
+  
   line-height: 2;
   animation: lighting 1s alternate-reverse infinite;
 }
@@ -107,7 +108,7 @@ h5 {
 .back-card {
   background: red;
 }
-.button-me{
+.button-me {
   text-align: center;
 }
 .btn-read {
