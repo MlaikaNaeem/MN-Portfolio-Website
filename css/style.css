@@ -31,7 +31,7 @@ body {
 .name p {
   font-family: arial;
   display: inline-block;
-  
+
   line-height: 2;
   animation: lighting 1s alternate-reverse infinite;
 }
@@ -188,6 +188,13 @@ h5 {
   opacity: 0.3;
   margin-top: 40px;
 }
+/*work-page*/
+.radio-p {
+  margin-top: 200px;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 22px;
@@ -214,4 +221,8 @@ h5 {
     width: 40px;
     height: 40px;
   }
+  .radio-p {
+  margin-top: 50px;
+  
+}
 }
