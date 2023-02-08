@@ -7,18 +7,24 @@
 }
 body {
   font-family: var(--default-font-family);
-  background: #ffffff;
+  background: #e3aaa4;
+}
+nav {
+  background: var(--btn-color);
+  height: 60px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
 }
 .navbar-nav .nav-link {
-  color: white;
+  color: var(--branding-color);
   margin: 0px 20px;
   font-size: 16px;
 }
 .navbar-nav .nav-link.active {
-  color: var(--btn-color);
+  color: #ffe9e3;
 }
 .navbar-nav .nav-link:hover {
-  color: var(--btn-color);
+  color: #ffe9e3;
 }
 .navbar-toggler {
   background-color: var(--btn-color);
@@ -31,7 +37,6 @@ body {
 .name p {
   font-family: arial;
   display: inline-block;
-
   line-height: 2;
   animation: lighting 1s alternate-reverse infinite;
 }
@@ -105,9 +110,6 @@ h5 {
   margin: 20px 0px;
   font-weight: bold;
 }
-.back-card {
-  background: red;
-}
 .button-me {
   text-align: center;
 }
@@ -165,28 +167,32 @@ h5 {
 }
 /*contact-page*/
 .contact-section {
-  background: var(--branding-color);
-  color: white;
+  background: var(--btn-color);
+  color: var(--branding-color);
 }
 .contact-icons {
-  color: white;
+  color: var(--branding-color);
   margin-top: 50px;
 }
 .contact-icons:hover {
   transform: scale(1.2);
-  color: var(--btn-color);
+  color: #ffffff;
 }
 .contact-platforms {
-  color: var(--btn-color);
+  color: var(--branding-color);
 }
 .contact-para {
   font-size: 12px;
   font-style: var(--default-font-family);
-  opacity: 0.5;
+  opacity: 0.9;
+  color: var(--branding-color);
 }
 .contact-footer {
   opacity: 0.3;
-  margin-top: 40px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
 }
 /*work-page*/
 .radio-p {
@@ -222,7 +228,6 @@ h5 {
     height: 40px;
   }
   .radio-p {
-  margin-top: 50px;
-  
-}
+    margin-top: 50px;
+  }
 }
