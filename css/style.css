@@ -7,24 +7,18 @@
 }
 body {
   font-family: var(--default-font-family);
-  background: #e3aaa4;
-}
-nav {
-  background: var(--btn-color);
-  height: 60px;
-  font-family: var(--heading-font-family);
-  font-weight: 700;
+  background: #ffffff;
 }
 .navbar-nav .nav-link {
-  color: var(--branding-color);
+  color: #ffffff;
   margin: 0px 20px;
   font-size: 16px;
 }
 .navbar-nav .nav-link.active {
-  color: #ffe9e3;
+  color: var(--btn-color);
 }
 .navbar-nav .nav-link:hover {
-  color: #ffe9e3;
+  color: var(--btn-color);
 }
 .navbar-toggler {
   background-color: var(--btn-color);
@@ -167,25 +161,25 @@ h5 {
 }
 /*contact-page*/
 .contact-section {
-  background: var(--btn-color);
-  color: var(--branding-color);
+  background: var(--branding-color);
+  color: #ffffff;
 }
 .contact-icons {
-  color: var(--branding-color);
+  color: #ffffff;
   margin-top: 50px;
 }
 .contact-icons:hover {
   transform: scale(1.2);
-  color: #ffffff;
+  color: var(--btn-color);
 }
 .contact-platforms {
-  color: var(--branding-color);
+  color: var(--btn-color);
 }
 .contact-para {
   font-size: 12px;
   font-style: var(--default-font-family);
-  opacity: 0.9;
-  color: var(--branding-color);
+  opacity: 0.5;
+  color: #ffffff;
 }
 .contact-footer {
   opacity: 0.3;
