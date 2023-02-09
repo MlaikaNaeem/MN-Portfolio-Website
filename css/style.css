@@ -167,6 +167,9 @@ h5 {
 .about-me-image {
   border-radius: 50%;
 }
+ .about-content p{
+  font-size: 18px;
+ }
 /*contact-page*/
 .contact-section {
   background: var(--branding-color);
@@ -199,9 +202,8 @@ h5 {
 /*work-page*/
 .radio-p {
   margin-top: 200px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--default-font-family);
-  font-weight: bold;
 }
 @media (max-width: 576px) {
   h1 {
